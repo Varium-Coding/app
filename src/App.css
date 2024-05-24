@@ -1,4 +1,4 @@
-
+/* Add styles for the body to set the background */
 body {
   background: url('pokemon.jpeg') no-repeat center center fixed; 
   background-size: cover;
@@ -11,6 +11,8 @@ body {
   align-items: center;
   height: 100vh;
 }
+
+/* Style the main app container */
 .App {
   text-align: center;
   padding: 2rem;
@@ -20,14 +22,55 @@ body {
   width: 90%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+
+/* Style the heading */
+.App h1 {
+  color: #ffcc00; /* Pokémon yellow */
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Style the label and select */
+label {
+  color: #ffcc00; /* Pokémon yellow */
+}
+
+select {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ffcc00; /* Pokémon yellow */
+  background-color: #fff;
+  color: #000;
+}
+
+/* Style the button */
+button {
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #ff0000; /* Pokémon red */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #cc0000; /* Darker red for hover effect */
+}
+
+/* Style the Pokémon container */
 .pokemon {
   margin-top: 2rem;
-  border: 1px solid #fff;
+  border: 1px solid #ffcc00; /* Pokémon yellow */
   padding: 1rem;
   text-align: left;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.8); 
   border-radius: 10px;
-  color: #000
+  color: #000;
 }
 
 .pokemon img {
@@ -37,4 +80,13 @@ body {
 .pokemon ul {
   list-style-type: none;
   padding: 0;
+}
+
+/* Style the Pokémon heading */
+.pokemon h2 {
+  color: #0073e6; /* Pokémon blue */
+}
+
+.pokemon h3 {
+  color: #0073e6; /* Pokémon blue */
 }
